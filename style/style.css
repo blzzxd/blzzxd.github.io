@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: crosshair;
+}
+
+.titlebar {
+    padding-top: 120px;
+    font-size: x-large;
+    color:white;
+    padding-bottom: 90px;
+    background-image: linear-gradient(to right, #6100e0, rgb(165, 68, 255));
+    text-align: center;
+}
+
+.titlebar:hover {
+  color: rgb(255, 83, 83);
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-image: linear-gradient(to right, black, rgb(26, 0, 75));
+  overflow: hidden;
+}
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float:left;
+    margin-left: 1%;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #6100e0;
+    color: white;
+}
+
+.about {
+
+  margin: 25px 40% 0px 25%;
+  color: #000;
+  font-size: larger;
+}
+
+.pfp {
+  float: left;
+  margin-right: 10px;
+  width: 15%;
+  height: auto;
+  border: #000 solid 2px;
+  border-color: #6100e0;
+  border-radius: 10px;
+}
+
+.favorites {
+  font-size: larger;
+  margin: 25px 25px 25px 25%;
+  text-align: left;
+}
