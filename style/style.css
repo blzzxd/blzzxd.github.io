@@ -5,6 +5,9 @@
     cursor: crosshair;
 }
 
+html {
+  height: 100%;
+}
 .titlebar {
     padding-top: 120px;
     font-size: x-large;
