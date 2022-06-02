@@ -5,9 +5,19 @@
     cursor: crosshair;
 }
 
-html {
+html,body {
   height: 100%;
 }
+
+/* .background {
+  height: 100%;
+  background-image: url(https://files.wallpaperpass.com/2019/10/csgo%20wallpaper%2003%20-%201920x1080.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:white;
+} */
+
 .titlebar {
     padding-top: 120px;
     font-size: x-large;
@@ -51,9 +61,8 @@ html {
 }
 
 .about {
-
-  margin: 25px 40% 0px 15%;
-  color: #000;
+  margin: 25px 40% 0px 5%;
+  color: black;
   font-size: larger;
 }
 
@@ -69,6 +78,6 @@ html {
 
 .favorites {
   font-size: larger;
-  margin: 25px 25px 25px 15%;
+  margin: 50px 25px 25px 5%;
   text-align: left;
 }
