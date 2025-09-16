@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+body {
+  background: #282A36;
+  color:#F8F8F2;
+  font-family: "Source Code Pro", monospace;
+  margin:0;
+  padding:0;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+  overflow:hidden;
+}
+
+#header {
+  position: fixed;   /* фиксируем относительно окна браузера */
+  top: 20px;         /* отступ сверху */
+  z-index: 10;       /* чтобы заголовок был поверх других элементов */
+  align-items: center;
+  justify-content:center;
+  display: flex;
+  flex-direction:column;
+}
+
+#header p {
+  color: #44475A;
+}
+
+#controls {
+  align-self: flex-start; 
+  width: 100%; 
+  padding-left: 20px; 
+  position: fixed;   
+  bottom: 20px;      
+  left: 20px;        
+  align-self: auto;  
+}
+
+#piano {
+  position:relative;
+  width:100%;
+  height:200px;
+  user-select:none;
+  max-width: 1200px;
+}
+.key {
+  position:absolute;
+  border:1px solid #44475A;
+  cursor:pointer;
+  box-sizing: border-box;
+}
+.key.white {
+  background:#F8F8F2;
+  z-index:1;
+  height:200px;
+}
+.key.black {
+  background:#282A36;
+  z-index:2;
+  height:120px;
+}
+
+.key.white.hover { background: #ededde; }
+.key.black.hover { background: #44475A; }
+
+.active {
+  background: #BD93F9 !important;
+}
