@@ -43,6 +43,8 @@ A simple web app where you can play piano using your keyboard, mouse, or even a 
 - **Z** – Octave Down  
 - **X** – Octave Up  
 
+___
+
 ### MIDI Support
 
 To play using a MIDI controller, simply connect it to your computer and allow your browser to access and manage MIDI devices.
