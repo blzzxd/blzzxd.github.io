@@ -158,8 +158,8 @@ let octaveShift = 0;
 function setupKeyboard(){
   document.addEventListener('keydown', e => {
     const key = e.key.toLowerCase();
-    if(key==='z'){ octaveShift = Math.min(octaveShift+12,36); return; }
-    if(key==='x'){ octaveShift = Math.max(octaveShift-12,-36); return; }
+    if(key==='x'){ octaveShift = Math.min(octaveShift+12,36); return; }
+    if(key==='z'){ octaveShift = Math.max(octaveShift-12,-36); return; }
     if(keyMapBase[key]!==undefined && !pressedKeys[key]){
       let note = Math.max(21, Math.min(108, keyMapBase[key]+octaveShift));
       pressedKeys[key] = note;
